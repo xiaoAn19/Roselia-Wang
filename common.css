@@ -47,8 +47,9 @@ body {
 
 .header h1 {
     margin: 0;
-    font-size: clamp(22px, 4.5vw, 36px);
-    font-weight: 600;
+    font-size: clamp(22px, 4.5vw, 45px);
+    font-weight: 500;
+    letter-spacing: 4px;
 }
 
 .nav {
@@ -63,8 +64,8 @@ body {
 .nav-item a {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.4);
-    font-size: clamp(14px, 2.8vw, 18px);
-    padding: 5px 0;
+    font-size: clamp(14px, 2.8vw, 20px);
+    padding: 10px 0;
     transition: color 0.3s ease;
 }
 
