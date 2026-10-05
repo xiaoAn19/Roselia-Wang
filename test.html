@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Test - Roselia Wang</title>
+    <link rel="stylesheet" href="./common.css">
+    <style>
+        body {
+            background: #fafafa;
+        }
+
+        .test-wrap {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .test-badge {
+            display: inline-block;
+            padding: 6px 16px;
+            background: #111;
+            color: #fff;
+            border-radius: 20px;
+            font-size: 13px;
+            letter-spacing: 1px;
+            margin-bottom: 24px;
+        }
+
+        .test-title {
+            font-size: clamp(32px, 7vw, 64px);
+            font-weight: 500;
+            margin: 0 0 12px 0;
+            color: #111;
+        }
+
+        .test-sub {
+            color: rgba(0, 0, 0, 0.5);
+            font-size: clamp(15px, 3vw, 20px);
+            margin-bottom: 32px;
+        }
+
+        .test-info {
+            font-size: 14px;
+            color: rgba(0, 0, 0, 0.6);
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+            padding-top: 16px;
+            margin-top: 24px;
+            max-width: 420px;
+            line-height: 1.7;
+        }
+
+        .back-link {
+            margin-top: 24px;
+            color: rgba(0, 0, 0, 0.5);
+            text-decoration: none;
+            border-bottom: 1px solid currentColor;
+            padding-bottom: 2px;
+            transition: color .3s;
+        }
+
+        .back-link:hover {
+            color: #111;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Roselia Wang</h1>
+        <div class="nav">
+            <div class="nav-item">
+                <a href="./index.html">Home</a>
+            </div>
+            <div class="nav-item">
+                <a href="./test.html" style="color:#111;">Test</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="test-wrap">
+        <span class="test-badge">DEPLOY TEST</span>
+        <h2 class="test-title">Netlify Auto Deploy Test</h2>
+        <p class="test-sub">If you can see this page, the push-triggered deployment works.</p>
+        <a href="./index.html" class="back-link">← Back to Home</a>
+        <div class="test-info">
+            This is a temporary test page created to verify that pushing code to GitHub
+            automatically triggers a new deployment on Netlify.
+        </div>
+    </div>
+
+</body>
+
+</html>
